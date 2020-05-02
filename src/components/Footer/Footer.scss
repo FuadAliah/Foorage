@@ -1,0 +1,140 @@
+@import "../../variables.scss";
+
+.Footer {
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3% 0 1% 0;
+    background: $darkColor;
+    color: #ffffff;
+
+    .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .column {
+            width: 22%;
+
+            h5 {
+                font-size: 1rem;
+                font-weight: 400;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+
+            ul {
+                li {
+                    margin-top: 10px;
+                    color: gray;
+
+                    img {
+                        margin-right: 15px;
+                    }
+
+                    a {
+                        color: gray;
+                        transition: all 0.4s ease-in-out;
+                        margin-left: 0;
+
+                        &:hover {
+                            color: #ffffff;
+                            margin-left: 8px;
+                        }
+                    }
+                }
+
+                li.contact {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    img {
+                        display: block;
+                        width: 22px;
+                    }
+                    span {
+                        width: 140px;
+                    }
+                }
+            }
+            form {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                input {
+                    width: 84%;
+                    height: 46px;
+                    border: 0;
+                    padding: 15px;
+                    background: lighten($darkColor, 5%);
+                    color: #fff;
+
+                    &:focus {
+                        outline: 0;
+                    }
+                }
+                button {
+                    width: 16%;
+                    cursor: pointer;
+                    background: $orange;
+                    border: 0;
+                    color: $darkColor;
+                    display: flex;
+                    justify-content: center;
+                    transition: all 0.4s ease-in-out;
+
+                    &:hover {
+                        background: #ffffff;
+                        color: $darkColor;
+                    }
+
+                    &:active {
+                        outline: 0;
+                    }
+                }
+            }
+            .social {
+                margin-top: 40px;
+            }
+            .icons {
+                width: 57%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                a {
+                    display: inline-block;
+                    height: 32px;
+                }
+            }
+        }
+        .last {
+            border-top: 1px solid lighten($darkColor, 10%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .copyright {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 27%;
+
+            a {
+                color: gray;
+                transition: all 0.4s ease-in-out;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+            span {
+                font-size: 0.95rem;
+                color: gray;
+            }
+        }
+    }
+}

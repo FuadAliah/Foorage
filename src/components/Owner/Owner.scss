@@ -1,0 +1,49 @@
+@import "../../variables.scss";
+
+.owner {
+    width: 100%;
+    height: 64vh;
+    background: url("./bg_call_section.jpg") no-repeat top center;
+    background-size: cover;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .bubble {
+        background: $darkColor;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 40px;
+        color: #fff;
+        width: 490px;
+        height: 300px;
+
+        h2 {
+            font-size: 2.2rem;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.5rem;
+            color: #adadad;
+        }
+
+        .read {
+            padding: 8px 16px;
+            background: $orange;
+            color: #fff;
+            border-radius: 4px;
+            font-weight: 500;
+            color: $darkColor;
+            font-size: 1.1rem;
+
+            &:hover {
+                background: #fff;
+                color: $darkColor;
+            }
+        }
+    }
+}

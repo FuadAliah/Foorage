@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+.top {
+    position: fixed;
+    bottom: -80px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: $orange;
+    transition: all 0.4s ease-in-out;
+
+    span {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(-90deg);
+        cursor: pointer;
+
+        img {
+            height: 20px;
+        }
+    }
+}
+
+.display {
+    bottom: 30px;
+}

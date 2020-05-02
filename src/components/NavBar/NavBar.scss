@@ -1,0 +1,35 @@
+@import "../../variables.scss";
+
+.fixedNav {
+    padding: 15px 0;
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+    width: 100vw;
+    z-index: 9;
+    transition: all 0.4s ease-in-out;
+
+    .d_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 35px;
+
+        .nav {
+            width: 30%;
+
+            a {
+                color: $darkColor;
+                padding: 10px;
+                display: block;
+                height: 35px;
+                &:hover {
+                    color: $orange;
+                }
+            }
+
+            a.active {
+                color: $orange;
+            }
+        }
+    }
+}
