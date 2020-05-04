@@ -11,7 +11,7 @@ class Popular extends Component {
     }
 
     componentDidMount() {
-        axios.get('data.json').then(res => { this.setState({ Popular: res.data.popular }) })
+        axios.get('./data.json').then(res => { this.setState({ Popular: res.data.popular }) })
             .catch(error => {
                 console.log(error);
             })
