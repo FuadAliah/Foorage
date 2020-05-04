@@ -25,5 +25,4 @@ const HomeIndex = () => {
         </motion.div>
     );
 };
-
 export default HomeIndex;
