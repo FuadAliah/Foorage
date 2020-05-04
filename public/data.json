@@ -3,35 +3,35 @@
         {
             "id": "1",
             "len": "35",
-            "icon": "images/pizza.svg",
+            "icon": "./images/pizza.svg",
             "title": "Pizza - Italian",
             "price": "Avg price $65"
         },
         {
             "id": "2",
             "len": "43",
-            "icon": "images/sushi-2.svg",
+            "icon": "./images/sushi-2.svg",
             "title": "Sushi - Japanese",
             "price": "Avg price $48"
         },
         {
             "id": "3",
             "len": "95",
-            "icon": "images/hamburger.svg",
+            "icon": "./images/hamburger.svg",
             "title": "Hamburger",
             "price": "Avg price $50"
         },
         {
             "id": "4",
             "len": "82",
-            "icon": "images/ice-cream-3.svg",
+            "icon": "./images/ice-cream-3.svg",
             "title": "Ice Cream",
             "price": "Avg price $30"
         },
         {
             "id": "5",
             "len": "68",
-            "icon": "images/cupcake.svg",
+            "icon": "./images/cupcake.svg",
             "title": "Cupcake",
             "price": "Avg price $30"
         }
@@ -39,7 +39,7 @@
     "popular": [
         {
             "id": "1",
-            "img": "images/location_1.jpg",
+            "img": "./images/location_1.jpg",
             "category": "Italian",
             "offer": "-30%",
             "name": "Da Alfredo",
@@ -48,7 +48,7 @@
         },
         {
             "id": "2",
-            "img": "images/location_2.jpg",
+            "img": "./images/location_2.jpg",
             "category": "Burgers",
             "offer": "-40%",
             "name": "Best Burgers",
@@ -57,7 +57,7 @@
         },
         {
             "id": "3",
-            "img": "images/location_3.jpg",
+            "img": "./images/location_3.jpg",
             "category": "Italian",
             "offer": "-20%",
             "name": "Vego Life",
@@ -66,7 +66,7 @@
         },
         {
             "id": "4",
-            "img": "images/location_4.jpg",
+            "img": "./images/location_4.jpg",
             "category": "Japanese",
             "offer": "-30%",
             "name": "Sushi Temple",
