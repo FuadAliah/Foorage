@@ -9,7 +9,7 @@ class Categories extends Component {
     }
 
     componentDidMount() {
-        axios.get('./data.json').then(res => { this.setState({ Categories: res.data.categories }) })
+        axios.get('data.json').then(res => { this.setState({ Categories: res.data.categories }) })
             .catch(error => {
                 console.log(error);
             })
