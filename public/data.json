@@ -3,7 +3,7 @@
         {
             "id": "1",
             "len": "35",
-            "icon": "imgs/pizza.svg",
+            "icon": "./imgs/pizza.svg",
             "title": "Pizza - Italian",
             "price": "Avg price $65"
         },
