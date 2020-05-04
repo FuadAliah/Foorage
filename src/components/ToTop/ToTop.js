@@ -35,7 +35,7 @@ class ToTop extends Component {
         return (
             <div className={this.state.Scrolled ? 'top display' : 'top'}>
                 <span onClick={this.ToTop}>
-                    <img src="imgs/arrow-1-right.svg" alt="c" />
+                    <img src="images/arrow-1-right.svg" alt="c" />
                 </span>
             </div>
         );
