@@ -31,7 +31,7 @@ class NavBar extends Component {
             <nav className='fixedNav'>
                 <div className="container">
                     <div className='d_flex'>
-                        <NavLink to="/">
+                        <NavLink>
                             <img src={Logo} alt='Logo' />
                         </NavLink>
                         <div className='d_flex nav'>
